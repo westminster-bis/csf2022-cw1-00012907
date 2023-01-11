@@ -262,7 +262,7 @@ main img {vertical-align: middle;}
     }
     main .showcase-text{
         width: 100%;
-        padding: 2rem 5rem;
+        padding: 2rem 1.2rem;
         text-align: center;
     }
    main a.btn{
@@ -309,6 +309,11 @@ main img {vertical-align: middle;}
 }
 .sec-1 .card{
     padding: 2rem;
+}
+@media(max-width:700px){
+    .sec-1 h2{
+        font-size:1rem;
+    }
 }
 
 .sec-2{
@@ -431,6 +436,9 @@ main img {vertical-align: middle;}
     .sec-7 .text p:nth-child(3){
       font-size: 0.8rem;
     }
+        .sec-7 .text p:nth-child(1){
+            font-size:1rem;
+      }
     .sec-7 form{
       flex-direction: column;
     }
@@ -539,12 +547,9 @@ footer .card3 .head{
   footer .box{
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
     gap: 2rem;
   }
   footer .card1 img{
-    align-self: center;
     width: 80px;
   }
   footer .card{
